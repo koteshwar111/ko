@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Job 1: Clone from GitHub') {
             steps {
-                git branch: 'master', url: 'https://github.com/koteshwar111/exprep2.git'
+                git branch: 'master', url: 'https://github.com/koteshwar111/ko.git'
                 echo 'Code cloned successfully!'
             }
         }
